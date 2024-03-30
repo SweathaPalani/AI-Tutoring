@@ -1,0 +1,8 @@
+Week 1: Understanding Web Scraping Basics
+
+Introduction to Web Scraping
+HTML/CSS Basics
+Introduction to HTTP & Understanding Requests/Responses
+Setting up Python Environment for Scraping
+Python Libraries for Web Scraping - Part 1 (requests, BeautifulSoup)
+Python Libraries for Web Scraping - Part 2 (lxml, Scrapy)
