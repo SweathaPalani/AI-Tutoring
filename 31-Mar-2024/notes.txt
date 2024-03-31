@@ -1,0 +1,8 @@
+# By.ID: Finds elements based on the id attribute.
+# By.XPATH: Locates elements using XPath queries.
+# By.LINK_TEXT: Finds links by their complete text.
+# By.PARTIAL_LINK_TEXT: Locates links containing the specified partial text.
+# By.NAME: Searches for elements using the name attribute.
+# By.TAG_NAME: Finds elements by their tag name (like div, span, etc.).
+# By.CLASS_NAME: Locates elements by their class attribute.
+# By.CSS_SELECTOR: Uses CSS selectors to find elements.
