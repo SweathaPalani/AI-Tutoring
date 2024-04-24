@@ -11,15 +11,18 @@ driver = webdriver.Chrome(service=webdriver_service)
 driver.get("https://news.ycombinator.com/login")
 
 # Locate the login and password fields, and fill them in
-login_field = driver.find_element(By.XPATH, "//input[@type='text']")
-login_field.send_keys("sweathaa")
+month = driver.find_element(By.XPATH, "//*[@id=\"dob__month\"]")
+month.send_keys("12")
 
-password_field = driver.find_element(By.XPATH, "//input[@type='password']")
-password_field.send_keys("sweathaa")
+day = driver.find_element(By.XPATH, "//*[@id=\"dob__day\"]")
+day.send_keys("12")
 
-submit_button = driver.find_element(By.XPATH, "//input[@value='login']")
-submit_button.click()
+year = driver.find_element(By.XPATH, "//*[@id=\"dob__year\"]")
+year.send_keys("1992")
 
-driver.save_screenshot('screenshot.png')
+verify = driver.find_element(By.XPATH, "//*[@id=\"shopify-section-overlay\"]/div/section/div/div[2]/form/p[3]/button")
+verify.click()
+
+
 
 driver.quit()
