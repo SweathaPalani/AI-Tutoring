@@ -1,0 +1,22 @@
+List of tasks to use in pipeline:
+
+Sentiment Analysis: Determine the sentiment (positive, negative, or neutral) of a piece of text.
+Task identifier: 'sentiment-analysis'
+Text Generation: Generate text based on a given prompt.
+Task identifier: 'text-generation'
+Question Answering: Answer questions based on a given context.
+Task identifier: 'question-answering'
+Named Entity Recognition (NER): Identify entities (such as persons, organizations, locations) in text data.
+Task identifier: 'ner'
+Summarization: Generate a concise summary of a longer piece of text.
+Task identifier: 'summarization'
+Translation: Translate text from one language to another.
+Task identifier: 'translation_xx_to_yy' (where 'xx' and 'yy' are language codes)
+Text Classification: Classify text into predefined categories or labels.
+Task identifier: 'text-classification'
+Conversational AI: Generate responses in a conversational manner based on given prompts.
+Task identifier: 'conversational'
+Feature Extraction: Extract linguistic features from text data.
+Task identifier: 'feature-extraction'
+Zero-Shot Classification: Classify text into categories without explicit training on those categories.
+Task identifier: 'zero-shot-classification'
